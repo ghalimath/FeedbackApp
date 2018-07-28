@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Feedback App</string>
+    <string name="phone_no">phone_no</string>
+    <string name="button">Button</string>
+    <string name="mail_id">mail_id</string>
+    <string name="java">java</string>
+    <string name="android">android</string>
+    <string name="web">web</string>
+    <string name="python">python</string>
+    <string-array name="sublist">
+    <item>CN</item>
+    <item>DAA</item>
+    <item>Unix</item>
+    <item>Phy</item>
+</string-array>
+</resources>
+

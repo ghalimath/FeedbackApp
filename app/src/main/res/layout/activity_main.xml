@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:text="@string/button" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/phone"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-136dp"
+        android:hint="@string/mail_id"
+        android:inputType="textEmailAddress"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:text="@string/java"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignTop="@+id/check1"
+        android:layout_marginEnd="56dp"
+        android:text="@string/android"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="56dp" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:layout_below="@+id/check2"/>
+    />
+
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/check2"
+        android:layout_below="@+id/check2"
+        android:text="@string/python"
+        android:layout_alignLeft="@+id/check2" />
+    />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="175dp"
+        android:layout_alignParentLeft="true"></Spinner>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:hint="@string/phone_no"
+        android:inputType="phone"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
